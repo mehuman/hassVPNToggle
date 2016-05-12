@@ -1,0 +1,6 @@
+- platform: command_line
+  switches:
+    vpn_toggle:
+      name: "VPN Client"
+      oncmd: /config/scripts/vpntoggle.sh start
+      offcmd: /config/scripts/vpntoggle.sh stop
