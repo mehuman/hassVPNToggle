@@ -1,6 +1,6 @@
 #!/bin/bash
 user=admin
-server="10.0.0.1"
+server="IP of router"
 vpnclient="1"
 
 if [ "$1" == "start" ];
