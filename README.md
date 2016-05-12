@@ -1,6 +1,7 @@
 A script and configuration to toggle a VPN server from within [Home Assistant](https://home-assistant.io/). Currently only tested with a router running [ASUSMerlin](https://asuswrt.lostrealm.ca/).
 
 Steps:
+
 1. Create keys ```ssh-keygen -t rsa -b 4096 -C "comment"```
 2. Copy key to host ```ssh-copy-id user@host```
 3. Verfiy the connection ```ssh user@host```. You shouldn't be asked for a password.
