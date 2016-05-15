@@ -5,7 +5,7 @@ Steps:
 1. Create keys ```ssh-keygen -t rsa -b 4096 -C "comment"```
 2. Copy key to host ```ssh-copy-id user@host```
 3. Verfiy the connection ```ssh user@host```. You shouldn't be asked for a password.
-4. Place vpntoggle.sh somewhere accessable to Home Assistant and make sure it's executable ```chmod +x vpntoggle.sh```
+4. Place vpntoggle.sh and the key somewhere accessable to Home Assistant and make sure the script is executable ```chmod +x vpntoggle.sh```
 5. Edit the script to match your configuration.
 6. Add the configuration to you Home Assistant. It's of the type switch.
 

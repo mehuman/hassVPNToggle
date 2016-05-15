@@ -1,6 +1,7 @@
 #!/bin/bash
 user=admin
-server="IP of router"
+server="ip of router"
+key="path to ssh key"
 vpnclient="1"
 
 if [ "$1" == "start" ];
@@ -11,8 +12,9 @@ then
   vpncommand="service stop_vpnclient$vpnclient"
 else
   echo "Valid arguments are start or stop"
+  exit
 fi
 
-ssh $user@$server $vpncommand
+ssh -i $key $user@$server $vpncommand
 
 
