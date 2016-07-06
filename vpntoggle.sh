@@ -15,6 +15,6 @@ else
   exit
 fi
 
-ssh -i $key $user@$server $vpncommand
+ssh -oStrictHostKeyChecking=no -i $key $user@$server $vpncommand
 
 
