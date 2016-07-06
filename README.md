@@ -10,4 +10,4 @@ Steps:
 6. Add the configuration to you Home Assistant. It's of the type switch.
 
 Things to look out for:
-If using docker you will need to generate keys within the container. You can access the container with ```docker exec -it CONTAINTER bash```. You will also need to place the script somewhere the containter can find it. I placed mine under the config directory defined in the docker run command.
+If using docker you will need to generate keys within the container. You can access the container with ```docker exec -it CONTAINER bash```. You will also need to place the script somewhere the containter can find it. I placed mine under the config directory defined in the docker run command.
